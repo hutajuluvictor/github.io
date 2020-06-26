@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUKAN INSTAGRAM - LOGIN</title>
+    
+    <meta name="google-signin-scope" content="profile email">
+    
+   <meta name="google-signin-client_id" content="819303951679-10l1ul8vkhl0sh8atq64pbv5u2b9lgbv.apps.googleusercontent.com">
+    
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto&display=swap'>
+    
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="top">
+                <div class="logo">
+                    <img src="img/bukan.png" alt="Bukan Instagram">
+                </div>
+                <div class="or">
+                    <div class="line"></div>
+                    <p>LOG IN</p>
+                    <div class="line"></div>
+                </div>
+                <div class="dif">
+                    <div class="gs">
+                        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+                    </div>
+                    <div class="or logged onlylogged">
+                        <div class="line"></div>
+                        <p><a href="#" onclick="gotoDashboard();">Dashboard</a></p>
+                        <div class="line"></div>
+                    </div>
+                    <div class="or logged onlylogged">
+                        <div class="line"></div>
+                        <p><a href="#" onclick="onSignOut();">Sign Out</a></p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <div class="apps">
+                <p>Dapatkan aplikasinya!</p>
+                <div class="icons">
+                    <a href="#"><img src="img/appstore.png" alt="App Store"></a>
+                    <a href="#"><img src="img/googleplay.png" alt="Play Store"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="links">
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SUPPORT</a></li>
+                    <li><a href="#">PRESS</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">JOBS</a></li>
+                    <li><a href="#">PRIVACY</a></li>
+                    <li><a href="#">TERMS</a></li>
+                    <li><a href="#">DIRECTORY</a></li>
+                    <li><a href="#">PROFILES</a></li>
+                    <li><a href="#">HASHTAGS</a></li>
+                    <li><a href="#">LANGUAGE</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2020 Bukan Instagram </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
